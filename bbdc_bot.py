@@ -3,10 +3,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-browser = webdriver.Chrome('insert_path_to_chromedriver_here')
+browser = webdriver.Chrome('"C:\Users\21010191\Downloads\chromedriver.exe"')
 
-username = 'insert_your_username_here'
-password = 'insert_your_password_here'
+username = '367H29042003'
+password = '292003'
 
 browser.get('https://info.bbdc.sg/members-login/')
 idLogin = browser.find_element_by_id('txtNRIC')
